@@ -6,7 +6,7 @@ let result = document.getElementById("result");
 
 let getMovie = () => {
     let movieName = movieNameRef.value;
-    let url = `https://movfo.netlify.app/api/http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
+    let url = `https://movfo.netlify.app/api/http://www.omdbapi.com/?t=${movieName}&apikey=cf99210e`;
     //if input field is empty
 
     if (movieName.length <= 0) {
